@@ -1,6 +1,6 @@
 package com.projectrpgkotlin.type;
 
-public enum WeaponQualityType {
+enum class WeaponQualityType {
     ACCURATE,
     BLACKPOWDER,
     BLAST,

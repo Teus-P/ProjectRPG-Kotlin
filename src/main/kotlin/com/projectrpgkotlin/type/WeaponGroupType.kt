@@ -1,4 +1,24 @@
 package com.projectrpgkotlin.type
 
-enum class WeaponGroup {
+enum class WeaponGroupType {
+    BASIC,
+    CAVALRY,
+    FENCING,
+    BRAWLING,
+    FLAIL,
+    PARRY,
+    POLEARM,
+    TWO_HANDED,
+    BLACKPOWDER,
+    BOW,
+    CROSSBOW,
+    ENGINEERING,
+    ENTANGLING,
+    EXPLOSIVES,
+    SLING,
+    THROWING,
+    BLACKPOWDER_AMMUNITION,
+    BOW_AMMUNITION,
+    CROSSBOW_AMMUNITION,
+    SLING_AMMUNITION
 }

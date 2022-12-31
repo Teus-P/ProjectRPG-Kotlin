@@ -1,4 +1,8 @@
 package com.projectrpgkotlin.dto
 
-class WeaponGroupDto {
-}
+import com.projectrpgkotlin.type.WeaponGroupType
+
+class WeaponGroupDto(
+    val id: Long,
+    val name: WeaponGroupType
+)
