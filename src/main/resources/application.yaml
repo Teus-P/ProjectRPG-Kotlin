@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/projectrpg?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    # url: jdbc:mysql://mysqldb-server:3306/projectrpg?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: ProjectRPG
+    password: ProjectRPG
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+server:
+  port: 8081
