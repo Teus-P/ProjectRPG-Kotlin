@@ -7,4 +7,5 @@ import com.teus.projectrpg.skill.type.SkillType
 import org.springframework.stereotype.Service
 
 @Service
-class SkillServiceImpl(skillRepository: SkillRepository) : SkillService, BaseServiceImpl<SkillType, Skill>(skillRepository)
+class SkillServiceImpl(skillRepository: SkillRepository)
+    : SkillService, BaseServiceImpl<SkillType, Skill>(skillRepository)

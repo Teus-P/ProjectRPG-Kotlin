@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/skill")
-class SkillController(skillService: SkillService, baseMapper: BaseMapper<SkillType, Skill>) :
-    BaseController<SkillType, Skill, BaseDto<SkillType>>(skillService, baseMapper)
+class SkillController(skillService: SkillService, baseMapper: BaseMapper<SkillType, Skill>)
+    : BaseController<SkillType, Skill, BaseDto<SkillType>>(skillService, baseMapper)
