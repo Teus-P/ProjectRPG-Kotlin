@@ -8,6 +8,6 @@ import org.mapstruct.Mapper
 import org.mapstruct.MappingConstants
 import org.springframework.stereotype.Service
 
-@Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
 @Service
+@Mapper(componentModel = MappingConstants.ComponentModel.SPRING)
 interface TalentMapper : CoreMapper<TalentType, Talent, TalentDto>

@@ -9,7 +9,7 @@ abstract class BaseEntity<T>(
     @Column(name = "id", nullable = false)
     open var id: Long,
 
-    @Column
+    @Column(columnDefinition = "VARCHAR")
     @Enumerated(EnumType.STRING)
     open var name: T
 )

@@ -11,5 +11,5 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/spell")
-class SpellController(spellService: SpellService, spellMapper: SpellMapper) :
-    BaseController<SpellType, Spell, SpellDto>(spellService, spellMapper)
+class SpellController(spellService: SpellService, spellMapper: SpellMapper)
+    : BaseController<SpellType, Spell, SpellDto>(spellService, spellMapper)

@@ -7,7 +7,7 @@ import com.teus.projectrpg.base.service.BaseService
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 
-abstract class BaseController<T : Enum<T>, E : BaseEntity<T>, D : BaseDto<T>>(
+abstract class BaseController<T, E : BaseEntity<T>, D : BaseDto<T>>(
     private val service: BaseService<T, E>,
     private val mapper: CoreMapper<T, E, D>
 ) {
